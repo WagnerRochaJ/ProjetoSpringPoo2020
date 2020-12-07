@@ -36,7 +36,6 @@ public class Cliente extends EntidadeNomeada implements Serializable{
 		this.email = email;
 		this.cpfOuCnpj = cpfOuCnpj;
 		this.tipo = tipo.getCod();
-		this.telefones = telefones;
 	}
 
 
