@@ -9,7 +9,7 @@ public class EntidadeNomeada extends EntidadeBase implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 
-	private String nome;
+	protected String nome;
 
 	public String getNome() {
 		return nome;
